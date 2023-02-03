@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Open+Sans:wght@300&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color: rgb(159, 202, 240);
+width: 50rem;
+height: 50rem;
+margin-left: 25%;
+border-radius: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(61, 61, 244);
+    font-size: 60px;
+    margin-left: 7%;
+
+}
+
+.selects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.select{
+    border: 1px solid #ffd5d5;
+    padding:  65px 60px 17px 22px;
+    border-radius: 63%;
+    font-size: 60px;
+    margin: 11px 47px;
+    cursor: pointer;
+}
+.select:hover{
+    transform: scale(1.2);
+}
+#rock{
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+}
+#scissor{
+    background-image: url("scissor.jpg");
+    background-size: cover;
+}
+.players{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px 35px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 25%;
+    position: relative;
+}
+#chance1{
+    border: 1px solid #ffd5d5;
+    padding: 60px 59px 17px 22px;
+    border-radius: 63%;
+    position: absolute;
+    bottom: -84px;
+    left: -9px;
+    top: 70px;
+}
+#chance2{
+    border: 1px solid rgb(255, 213, 213);
+    padding: 60px 59px 17px 22px;
+    border-radius: 63%;
+    position: absolute;
+    top: 40px;
+    left: 349px;
+    top: 65px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.results{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(201, 231, 253);
+    color: red;
+    font-size: 20px;
+    height: 3rem;
+    width: 10rem;
+    margin: 80px 0px;
+}
+#play{
+border: none;
+background-color: blue;
+color: white;
+font-size: 15px;
+width: 6rem;
+height: 2rem;
+text-align: center;
+border-radius: 2px;
+}
+.chance{
+    border: 1px solid #ffd5d5;
+    padding: 60px 59px 17px 22px;
+    border-radius: 63%;
+    position: absolute;
+    bottom: -84px;
+    left: -9px;
+    top: 70px;
+    opacity: 1;
+    font-size: 1.5rem;
+}
